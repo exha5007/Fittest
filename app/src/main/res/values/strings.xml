@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fittest</string>
+    <string name="str_tut1">將白紙短邊對齊至任一牆面，足部踩至白紙。</string>
+    <string name="str_tut2">將畫面中四個直角對準白紙四個端點。\n調整手機角度，將app畫面中圓球置。</string>
+    <string name="str_tut3">將白紙貼至任意水平牆面。\n將足部貼齊牆面，使用內鏡拍攝。</string>
+    <string name="str_tut4">調整手機角度，使app畫面中數值變為270</string>
+    <string name="shoe_initro">本鞋為本組實驗用之鞋款SP0375款\n一共有男女兩種款式\n本鞋款之前掌部較窄\n建議您選購大半號之鞋款</string>
+</resources>

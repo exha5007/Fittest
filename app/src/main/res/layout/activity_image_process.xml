@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.acer.webview.ImageProcess">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/impc_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/background"
+            >
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="175dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logo"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="影像處理中..."
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/text"
+                />
+            <ProgressBar
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/impc_gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            >
+            <Button
+                android:id="@+id/btn_male"
+                android:layout_width="190dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="200dp"
+                android:text="MALE"
+                android:textSize="35dp"
+                android:textColor="@color/text"
+                />
+            <Button
+                android:id="@+id/btn_female"
+                android:layout_width="190dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="FEMALE"
+                android:textSize="35dp"
+                android:textColor="@color/text"
+                />
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
