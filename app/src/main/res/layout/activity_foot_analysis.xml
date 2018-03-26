@@ -66,9 +66,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/border_text_padding_left"
-                android:paddingTop="@dimen/border_text_padding_top"
-                android:text="足部\n長度"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:text="腳長"
                 android:textSize="@dimen/border_text"
                 />
 
@@ -94,9 +94,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/border_text_padding_left"
-                android:paddingTop="@dimen/border_text_padding_top"
-                android:text="趾骨\n寬度"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:text="趾骨寬"
                 android:textSize="@dimen/border_text"
                 />
             <TextView
@@ -140,9 +140,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/border_text_padding_left"
-                android:paddingTop="@dimen/border_text_padding_top"
-                android:text="足掌\n長度"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:text="跟掌長"
                 android:textSize="@dimen/border_text"
                 />
         </FrameLayout>
@@ -165,14 +165,15 @@
                 android:paddingTop="@dimen/border_value_padding_top"
                 android:paddingLeft="@dimen/border_value_padding_left"
                 />
+
             <TextView
+                android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="@dimen/border_text_padding_left"
                 android:paddingTop="@dimen/border_text_padding_top"
                 android:text="足中\n高度"
-                android:textSize="@dimen/border_text"
-                />
+                android:textSize="@dimen/border_text" />
         </FrameLayout>
     </LinearLayout>
     <LinearLayout
@@ -196,9 +197,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/border_text_padding_left"
-                android:paddingTop="@dimen/border_text_padding_top"
-                android:text="足部\n寬度"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:text="腳寬"
                 android:textSize="@dimen/border_text"
                 />
             <TextView
